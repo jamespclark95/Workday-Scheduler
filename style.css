@@ -1,0 +1,102 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+h1 {
+  margin: 1em;
+}
+
+textarea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  padding: 0;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #d3d3d3;
+  color: white;
+}
+
+.present {
+  background-color: #ff6961;
+  color: white;
+}
+
+.future {
+  background-color: #77dd77;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  background-color: #8BC6EC;
+  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  color: white;
+  height: 50px;
+  border: none;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.saveBtn i:hover {
+  font-size: 1.5em;
+  color: rgb(92, 255, 171);
+  transition: all 0.1s ease-in;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(172, 172, 172);
+  opacity: 1; /* Firefox */
+}
+
+.height-auto {
+  height: auto;
+  margin-bottom: .5em;
+}
+
+.removeBtn {
+  background-image: radial-gradient( circle 668px at 2.6% 8.3%,  rgba(219,112,147,1) 0%, rgba(255,228,225,1) 49.5%, rgba(200,130,200,1) 99.4% );
+  color: #ffffff;
+  border: none;
+}
+
+.removeBtn i:hover {
+  font-size: 1.5em;
+  color: rgb(142, 142, 142);
+  transition: all 0.1s ease-in;
+}
+
