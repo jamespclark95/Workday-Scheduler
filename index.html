@@ -24,60 +24,65 @@
   <body>
     <header class="jumbotron">
       <h1>Plan Your Daily Schedule</h1>
-      <p id="currentDay" class="lead">Today is</p>
+      <p id="currentDay" class="lead">Today is<span id="currentTime"></span></p>
     </header>
-    <div class="container">
+    <div class="d-flex justify-content-center m-4">
+      <p class="past p-2 legend">Past</p>
+      <p class="present p-2 legend">Present</p>
+      <p class="future p-2 legend">Future</p>
+    </div>
+    <div class="container justify-content-center">
       <div class="row height-auto">
         <!--9:00 AM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="9am" type="text" placeholder="9:00 AM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour9" type="text" placeholder="9:00 AM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
       <div class="row height-auto">
         <!--10:00 AM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="10am" type="text" placeholder="10:00 AM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour10" type="text" placeholder="10:00 AM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
         <div class="row height-auto">
         <!--11:00 AM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="11am" type="text" placeholder="11:00 AM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour11" type="text" placeholder="11:00 AM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
       <div class="row height-auto">
         <!--12:00 PM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="12pm" type="text" placeholder="12:00 PM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour12" type="text" placeholder="12:00 PM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
       <div class="row height-auto">
         <!--1:00 PM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="1pm" type="text" placeholder="1:00 PM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour13" type="text" placeholder="1:00 PM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
       <div class="row height-auto">
         <!--2:00 PM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="2pm" type="text" placeholder="2:00 PM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour14" type="text" placeholder="2:00 PM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
       <div class="row height-auto">
         <!--3:00 PM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="3pm" type="text" placeholder="3:00 PM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour15" type="text" placeholder="3:00 PM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
       <div class="row height-auto">
         <!--4:00 PM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="4pm" type="text" placeholder="4:00 PM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour16" type="text" placeholder="4:00 PM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>
       <div class="row height-auto">
         <!--5:00 PM-->
-        <input class="form-control p-4 bg-dark text-white col-10" id="5pm" type="text" placeholder="5:00 PM">
+        <input class="form-control p-4 bg-dark text-white col-10" id="hour17" type="text" placeholder="5:00 PM">
         <button class="col-1 removeBtn d-none" type="submit"><i class="far fa-trash-alt fa-lg"></i></button>
         <button class="saveBtn col-1" type="submit"><i class="far fa-save fa-lg"></i></button>
       </div>

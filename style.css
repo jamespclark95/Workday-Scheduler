@@ -37,7 +37,6 @@ textarea {
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;
 }
 
 .hour {
@@ -47,17 +46,26 @@ textarea {
 }
 
 .past {
-  background-color: #d3d3d3;
+  background: #B8B8B8;
+  background: -webkit-linear-gradient(top, #B8B8B8, #6D6D6D);
+  background: -moz-linear-gradient(top, #B8B8B8, #6D6D6D);
+  background: linear-gradient(to bottom, #B8B8B8, #6D6D6D); 
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background: #FFF588;
+  background: -webkit-linear-gradient(top left, #FFF588, #CD8E11);
+  background: -moz-linear-gradient(top left, #FFF588, #CD8E11);
+  background: linear-gradient(to bottom right, #FFF588, #CD8E11);
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background: #82C163;
+  background: -webkit-linear-gradient(top left, #82C163, #10B66A);
+  background: -moz-linear-gradient(top left, #82C163, #10B66A);
+  background: linear-gradient(to bottom right, #82C163, #10B66A);
   color: white;
 }
 
@@ -79,7 +87,7 @@ textarea {
 }
 
 .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  color: rgb(172, 172, 172);
+  color: rgb(221, 221, 221);
   opacity: 1; /* Firefox */
 }
 
@@ -98,5 +106,10 @@ textarea {
   font-size: 1.5em;
   color: rgb(142, 142, 142);
   transition: all 0.1s ease-in;
+}
+
+.legend {
+  border-radius: 5px;
+  margin: auto;
 }
 
