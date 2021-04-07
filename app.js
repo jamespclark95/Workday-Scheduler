@@ -54,20 +54,13 @@ function timeTracker() {
         }
     })
 }
-
-
-
-
-
-timeTracker();
+// Refreshes the color changer every 5 minutes
+setInterval(timeTracker(), 50000);
 
 
 // Save Button saves input to local storage & displays remove button
 
-saveBtn.on('click', function saveInput(){
-    event.preventDefault;
 
-})
 
 // Remove Button removes the saved input
 
