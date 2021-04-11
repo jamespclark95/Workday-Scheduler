@@ -58,9 +58,4 @@ function timeTracker() {
 setInterval(timeTracker(), 50000);
 
 
-// Save Button saves input to local storage & displays remove button
-
-
-
-// Remove Button removes the saved input
 
